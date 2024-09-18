@@ -14,7 +14,8 @@ export const RoadmapList = () => {
             className={`rounded-[2.5rem] p-0.25 md:flex even:md:translate-y-[7rem] ${
               colorful ? 'bg-conic-gradient' : 'bg-n-6'
             }`}
-            key={id}>
+            key={id}
+          >
             <div className='relative overflow-hidden rounded-[2.4375rem] bg-n-8 p-8 xl:p-15'>
               <CardGridContainer />
               <div className='relative z-1'>

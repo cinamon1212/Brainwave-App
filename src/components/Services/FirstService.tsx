@@ -16,14 +16,10 @@ export const FirstService = () => {
       </div>
       <div className='relative bottom-8 z-1 ml-auto max-w-[17rem]'>
         <h4 className='h4 mb-4'>Smartest AI</h4>
-        <p className='body-2 mb-[3rem] text-n-3'>
-          Brainwave unlocks the potential of AI-powered applications
-        </p>
+        <p className='body-2 mb-[3rem] text-n-3'>Brainwave unlocks the potential of AI-powered applications</p>
         <ul className='body-2'>
           {brainwaveServices.map((service, index) => (
-            <li
-              key={index}
-              className='flex items-start border-t border-n-6 py-4'>
+            <li key={index} className='flex items-start border-t border-n-6 py-4'>
               <img src={check} alt='check' width={24} height={24} />
               <p className='ml-4'>{service}</p>
             </li>

@@ -7,9 +7,7 @@ export const BottomLine = () => {
 
   return (
     <>
-      <div
-        className={`${classes} left-10 right-10 top-[55.25rem] h-0.25 bg-n-6`}
-      />
+      <div className={`${classes} left-10 right-10 top-[55.25rem] h-0.25 bg-n-6`} />
       {pluses.map((plus, index) => (
         <PlusSvg className={`${classes} ${plus} ${plusClasses}`} key={index} />
       ))}

@@ -13,8 +13,7 @@ export const HeroBackgroundCircles = ({ parallaxRef }: Props) => {
     setMounted(true)
   }, [])
 
-  const parallaxItemClasses =
-    'absolute bottom-1/2 left-1/2 h-1/2 w-0.25 origin-bottom'
+  const parallaxItemClasses = 'absolute bottom-1/2 left-1/2 h-1/2 w-0.25 origin-bottom'
 
   const parallaxChildrenClasses = `rounded-full bg-gradient-to-b to-[#1A1A32] transition-transform duration-500 ease-out ${
     mounted ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
@@ -31,8 +30,7 @@ export const HeroBackgroundCircles = ({ parallaxRef }: Props) => {
     },
     {
       rotate: 'rotate-[54deg]',
-      childCl:
-        'transit -ml-1 mt-[12.9rem] hidden h-4 w-4 from-[#B9AEDF] xl:block',
+      childCl: 'transit -ml-1 mt-[12.9rem] hidden h-4 w-4 from-[#B9AEDF] xl:block',
     },
     {
       rotate: '-rotate-[65deg]',

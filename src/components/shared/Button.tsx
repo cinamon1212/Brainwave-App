@@ -9,14 +9,7 @@ type Props = {
   onClick?: () => void
 }
 
-export const Button = ({
-  className,
-  href,
-  white = false,
-  children,
-  px,
-  onClick,
-}: PropsWithChildren<Props>) => {
+export const Button = ({ className, href, white = false, children, px, onClick }: PropsWithChildren<Props>) => {
   const classes = `button relative inline-flex h-11 items-center justify-center transition-colors hover:text-color-1 ${
     px || 'px-7'
   } ${white ? 'text-n-8' : 'text-n-1'} ${className || ''}`

@@ -15,7 +15,8 @@ export const Hero = () => {
       className='-mt-[5.25rem] pt-[7.5rem] md:pt-[9rem] lg:pt-[9rem] xl:pt-[10rem]'
       crossesOffset='lg:translate-y-[5.25rem]'
       crosses
-      id='hero'>
+      id='hero'
+    >
       <div className='container relative sm:max-w-[80%] md:max-w-[100%]'>
         <div className='relative z-1 mx-auto mb-12 max-w-[62rem] text-center lg:mb-20'>
           <HeroHeader />

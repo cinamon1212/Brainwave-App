@@ -7,7 +7,8 @@ export const SocialsList = () => {
         <a
           key={id}
           href={url}
-          className='flex h-10 w-10 items-center justify-center rounded-full bg-n-7 transition-colors hover:bg-n-6'>
+          className='flex h-10 w-10 items-center justify-center rounded-full bg-n-7 transition-colors hover:bg-n-6'
+        >
           <img src={iconUrl} width={16} height={16} alt={title} />
         </a>
       ))}

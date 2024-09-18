@@ -5,10 +5,7 @@ type Props = {
   className?: string
 }
 
-export const TagLine = ({
-  className = '',
-  children,
-}: PropsWithChildren<Props>) => {
+export const TagLine = ({ className = '', children }: PropsWithChildren<Props>) => {
   return (
     <div className={`tagline flex items-center ${className}`}>
       <Brackets position='left' />

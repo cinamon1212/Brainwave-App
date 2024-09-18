@@ -1,14 +1,4 @@
-import {
-  Benefits,
-  ButtonGradient,
-  Collaboration,
-  Footer,
-  Header,
-  Hero,
-  Pricing,
-  Roadmap,
-  Services,
-} from '@/components'
+import { Benefits, ButtonGradient, Collaboration, Footer, Header, Hero, Pricing, Roadmap, Services } from '@/components'
 
 export const App = () => {
   return (

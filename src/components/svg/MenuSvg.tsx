@@ -4,11 +4,7 @@ type Props = {
 
 export const MenuSvg = ({ openNavigation }: Props) => {
   return (
-    <svg
-      className='overflow-visible'
-      width='20'
-      height='12'
-      viewBox='0 0 20 12'>
+    <svg className='overflow-visible' width='20' height='12' viewBox='0 0 20 12'>
       <rect
         className='origin-center transition-all'
         y={openNavigation ? '5' : '0'}

@@ -8,19 +8,11 @@ type Props = {
   crossesOffset?: string
 }
 
-export const Section = ({
-  className,
-  crosses,
-  crossesOffset,
-  id,
-  children,
-}: PropsWithChildren<Props>) => {
+export const Section = ({ className, crosses, crossesOffset, id, children }: PropsWithChildren<Props>) => {
   const directionItems = ['left', 'right']
 
   return (
-    <div
-      id={id}
-      className={`relative py-10 lg:py-16 xl:py-20 ${className || ''}`}>
+    <div id={id} className={`relative py-10 lg:py-16 xl:py-20 ${className || ''}`}>
       {children}
 
       {directionItems.map((direction, index) => (

@@ -9,15 +9,4 @@ import protopie from './protopie.png'
 import raindrop from './raindrop.png'
 import slack from './slack.png'
 
-export {
-  curve1,
-  curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
-}
+export { curve1, curve2, discord, figma, framer, notion, photoshop, protopie, raindrop, slack }

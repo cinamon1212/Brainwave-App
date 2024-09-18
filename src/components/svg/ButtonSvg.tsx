@@ -4,11 +4,7 @@ type Props = {
 
 export const ButtonSvg = ({ white }: Props) => (
   <>
-    <svg
-      className='absolute left-0 top-0'
-      width='21'
-      height='44'
-      viewBox='0 0 21 44'>
+    <svg className='absolute left-0 top-0' width='21' height='44' viewBox='0 0 21 44'>
       <path
         fill={white ? 'white' : 'none'}
         stroke={white ? 'white' : 'url(#btn-left)'} // mentioned in ButtonGradient.jsx
@@ -21,13 +17,10 @@ export const ButtonSvg = ({ white }: Props) => (
       height='44'
       viewBox='0 0 100 44'
       preserveAspectRatio='none'
-      fill={white ? 'white' : 'none'}>
+      fill={white ? 'white' : 'none'}
+    >
       {white ? (
-        <polygon
-          fill='white'
-          fillRule='nonzero'
-          points='100 0 100 44 0 44 0 0'
-        />
+        <polygon fill='white' fillRule='nonzero' points='100 0 100 44 0 44 0 0' />
       ) : (
         <>
           <polygon
@@ -43,11 +36,7 @@ export const ButtonSvg = ({ white }: Props) => (
         </>
       )}
     </svg>
-    <svg
-      className='absolute right-0 top-0'
-      width='21'
-      height='44'
-      viewBox='0 0 21 44'>
+    <svg className='absolute right-0 top-0' width='21' height='44' viewBox='0 0 21 44'>
       <path
         fill={white ? 'white' : 'none'}
         stroke={white ? 'white' : 'url(#btn-right)'} // mentioned in ButtonGradient.jsx

@@ -13,11 +13,9 @@ export const Nav = ({ openNavigation, handleNavigationClick }: Props) => {
 
   return (
     <nav
-      className={`fixed bottom-0 left-0 right-0 top-[5rem] bg-n-8 lg:static lg:mx-auto lg:flex lg:bg-transparent ${openNavigation ? 'flex' : 'hidden'}`}>
-      <div
-        className={
-          'relative z-2 m-auto flex flex-col items-center justify-center lg:flex-row'
-        }>
+      className={`fixed bottom-0 left-0 right-0 top-[5rem] bg-n-8 lg:static lg:mx-auto lg:flex lg:bg-transparent ${openNavigation ? 'flex' : 'hidden'}`}
+    >
+      <div className={'relative z-2 m-auto flex flex-col items-center justify-center lg:flex-row'}>
         {navigation.map(({ id, title, url, onlyMobile }) => (
           <NavItem
             title={title}

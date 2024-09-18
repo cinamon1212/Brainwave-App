@@ -8,9 +8,7 @@ export const Collaboration = () => {
     <Section id='collaboration' crosses>
       <div className='container mb-6 lg:flex'>
         <div className='mx-auto flex flex-col items-center sm:max-w-[25rem] lg:items-start'>
-          <h2 className='h2 mb-12 w-full text-center lg:text-start'>
-            AI Chat App for seamless collaboration
-          </h2>
+          <h2 className='h2 mb-12 w-full text-center lg:text-start'>AI Chat App for seamless collaboration</h2>
           <CollaborationsList />
           <Button className='sm:mt-4 md:mt-9'>Try it now</Button>
         </div>

@@ -6,13 +6,7 @@ export const HeroHeader = () => {
       Explore the Possibilities of&nbsp;AI&nbsp;Chatting with{' '}
       <span className='relative inline-block'>
         Brainwave{' '}
-        <img
-          className='absolute left-0 top-full w-full xl:-mt-2'
-          width={624}
-          height={28}
-          src={curve}
-          alt='Curve'
-        />
+        <img className='absolute left-0 top-full w-full xl:-mt-2' width={624} height={28} src={curve} alt='Curve' />
       </span>
     </h1>
   )
