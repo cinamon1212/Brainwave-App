@@ -15,7 +15,7 @@ import { BenefitCardItem } from '@/types'
 
 export const benefits: BenefitCardItem[] = [
   {
-    id: '0',
+    id: '1',
     title: 'Ask anything',
     text: 'Lets users quickly find answers to their questions without having to search through multiple sources.',
     backgroundUrl: benefitCard1,
@@ -23,7 +23,7 @@ export const benefits: BenefitCardItem[] = [
     imageUrl: benefitImage2,
   },
   {
-    id: '1',
+    id: '2',
     title: 'Improve everyday',
     text: 'The app uses natural language processing to understand user queries and provide accurate and relevant responses.',
     backgroundUrl: benefitCard2,
@@ -32,7 +32,7 @@ export const benefits: BenefitCardItem[] = [
     light: true,
   },
   {
-    id: '2',
+    id: '3',
     title: 'Connect everywhere',
     text: 'Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.',
     backgroundUrl: benefitCard3,
@@ -40,7 +40,7 @@ export const benefits: BenefitCardItem[] = [
     imageUrl: benefitImage2,
   },
   {
-    id: '3',
+    id: '4',
     title: 'Fast responding',
     text: 'Lets users quickly find answers to their questions without having to search through multiple sources.',
     backgroundUrl: benefitCard4,
@@ -49,7 +49,7 @@ export const benefits: BenefitCardItem[] = [
     light: true,
   },
   {
-    id: '4',
+    id: '5',
     title: 'Ask anything',
     text: 'Lets users quickly find answers to their questions without having to search through multiple sources.',
     backgroundUrl: benefitCard5,
@@ -57,7 +57,7 @@ export const benefits: BenefitCardItem[] = [
     imageUrl: benefitImage2,
   },
   {
-    id: '5',
+    id: '6',
     title: 'Improve everyday',
     text: 'The app uses natural language processing to understand user queries and provide accurate and relevant responses.',
     backgroundUrl: benefitCard6,

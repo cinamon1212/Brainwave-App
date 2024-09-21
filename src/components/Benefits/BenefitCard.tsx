@@ -2,15 +2,12 @@ import { Arrow, ClipPath } from '../svg'
 import { BenefitCardItem } from '@/types'
 import { GradientLight } from './GradientLight'
 
-type Props = Omit<BenefitCardItem, 'id'>
-
-export const BenefitCard = ({ backgroundUrl, iconUrl, imageUrl, text, title, light }: Props) => {
+export const BenefitCard = ({ iconUrl, imageUrl, text, title, light, backgroundUrl }: BenefitCardItem) => {
+  console.log(backgroundUrl)
   return (
     <div
-      className='relative block max-w-[368px] bg-[length:100%_100%] bg-no-repeat p-0.5 md:max-w-[24rem]'
-      style={{
-        backgroundImage: `url(${backgroundUrl})`,
-      }}
+      className={`relative block max-w-[368px] bg-[length:100%_100%] bg-no-repeat p-0.5 md:max-w-[24rem]`}
+      style={{ backgroundImage: `url("${backgroundUrl}")` }}
     >
       <div className='pointer-events-none relative z-2 flex min-h-[22rem] flex-col p-[1.5rem] sm:p-[2.4rem]'>
         <h5 className='h5 mb-5'>{title}</h5>
